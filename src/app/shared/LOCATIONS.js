@@ -1,9 +1,9 @@
-import cafeUpdtownImg from '../assets/img/loc-uptown';
+import cafeUpdtownImg from '../assets/img/loc-uptown.jpg';
 import cafeDowntownImg from '../assets/img/loc-downtown.jpg';
 import cafeEastsideImg from '../assets/img/loc-eastside.jpg';
 import cafeWestsideImg from '../assets/img/loc-westside.jpg';
 
-export const CAMPSITES = [
+export const LOCATIONS = [
     {
         id: 0,
         name: 'Uptown Cafe',

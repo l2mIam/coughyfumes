@@ -2,7 +2,7 @@ import breakfast from '../assets/img/food-breakfast.jpg';
 import lunch from '../assets/img/food-lunch.jpg';
 import dessert from '../assets/img/food-dessert.jpg';
 
-export const PARTNERS = [
+export const MENU = [
     {
         id: 0,
         name: 'Bootstrap Outfitters',

@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container, Navbar, NavbarBrand } from 'reactstrap'
 import CafeLogo from './app/assets/img/logo.png'
+import LocationCard from './features/locations/LocationCard'
+import { LOCATIONS } from './app/shared/LOCATIONS'
 
 import './App.css';
 
@@ -14,6 +16,7 @@ function App() {
           </NavbarBrand>
         </Container>
       </Navbar>
+      <LocationCard location={LOCATIONS[0]} />
     </div>
   );
 }
