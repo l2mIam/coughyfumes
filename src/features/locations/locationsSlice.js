@@ -4,6 +4,6 @@ export const selectAllLocations = () => {
   return LOCATIONS
 }
 
-export const selectRandomLocation = () => {
-  return LOCATIONS[Math.floor(LOCATIONS.length * Math.random())]
+export const selectLocationById = (id) => {
+  return LOCATIONS.find(location => location.id === id)
 }

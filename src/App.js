@@ -1,8 +1,7 @@
 import React from 'react'
 import { Container, Navbar, NavbarBrand } from 'reactstrap'
 import CafeLogo from './app/assets/img/logo.png'
-import LocationsList from './features/locations/LocationsList'
-
+import LocationDirectoryPage from './pages/LocationDirectoryPage'
 import './App.css';
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
           </NavbarBrand>
         </Container>
       </Navbar>
-      <LocationsList />
+      <LocationDirectoryPage />
     </div>
   );
 }
