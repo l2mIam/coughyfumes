@@ -8,7 +8,9 @@ const LocationCard = (props) => {
         src={props.location.image}
         alt={props.location.name}
       />
-      <CardTitle>{props.location.name}</CardTitle>
+      <CardImgOverlay>
+        <CardTitle>{props.location.name}</CardTitle>
+      </CardImgOverlay>
     </Card>
   )
 }
