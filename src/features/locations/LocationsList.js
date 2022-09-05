@@ -1,11 +1,12 @@
-import { LOCATIONS } from '../../app/shared/LOCATIONS'
 import { Col, Row } from 'reactstrap'
 import LocationCard from './LocationCard'
+import { selectAllLocations } from './locationsSlice'
 
 const LocationList = () => {
+  const locations = selectAllLocations()
   return (
     <Row className='ms-auto'>
-      {LOCATIONS.map(location => {
+      {locations.map(location => {
         return (
           <Col md='5' className='m-4' key={location.id}>
             <LocationCard location={location}/>
