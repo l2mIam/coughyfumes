@@ -3,7 +3,7 @@ import { Card, CardImg, CardText, CardBody, Col } from "reactstrap"
 const LocationDetail = ( {location} ) => {
   const { image, name, description } = location
   return (
-    <Col md='12' className="m-4">
+    <Col md='5' className="m-1">
       <Card>
         <CardImg
           top='true'

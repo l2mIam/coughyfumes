@@ -2,6 +2,7 @@ import { Container, Row } from "reactstrap"
 import { useParams } from "react-router-dom"
 import { selectLocationById } from "../features/locations/locationsSlice"
 import LocationDetail from '../features/locations/LocationDetail'
+import CommentsList from "../features/comments/CommentsList"
 
 const CampsiteDetailPage = () => {
   const { locationId } = useParams()
@@ -11,6 +12,7 @@ const CampsiteDetailPage = () => {
     <Container>
       <Row>
         <LocationDetail location={location} />
+        <CommentsList locationId={locationId} />
       </Row>
     </Container>
   )
