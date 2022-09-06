@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 import { selectLocationById } from "../features/locations/locationsSlice"
 import LocationDetail from '../features/locations/LocationDetail'
 import CommentsList from "../features/comments/CommentsList"
+import SubHeader from "../components/SubHeader"
 
 const CampsiteDetailPage = () => {
   const { locationId } = useParams()
@@ -10,6 +11,7 @@ const CampsiteDetailPage = () => {
 
   return (
     <Container>
+      <SubHeader current={location.name} detail={true} />
       <Row>
         <LocationDetail location={location} />
         <CommentsList locationId={locationId} />

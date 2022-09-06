@@ -1,16 +1,12 @@
-// import { useState } from "react"
 import { Container } from "reactstrap"
 import LocationsList from '../features/locations/LocationsList'
-// import LocationDetail from '../features/locations/LocationDetail'
-// import { selectLocationById } from "../features/locations/locationsSlice"
+import SubHeader from "../components/SubHeader"
 
 const LocationDirectoryPage = () => {
-  // const [locationId, setLocationId] = useState(0)
-  // locationDetail expects a location object:
-  // const selectedLocation = selectLocationById(locationId)
 
   return (
     <Container>
+      <SubHeader current='Directory' />
       <LocationsList />
     </Container>
   )
