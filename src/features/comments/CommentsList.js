@@ -10,7 +10,9 @@ const CommentsList = ({ locationId }) => {
         <h4>Comments</h4>
         {comments.map(comment => {
           return (
-            <Comment key={comment.id} comment={comment} />
+            comment && (
+              <Comment key={comment.id} comment={comment} />
+            )
           )
         })}
       </Col>
