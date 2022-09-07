@@ -34,6 +34,6 @@ export const LOCATIONS = [
         image: cafeWestsideImg,
         featured: true,
         description:
-            "The ocean becons and so does the aroma of fresh grounds"
+            "The ocean beckons and so does the aroma of fresh grounds"
     }
 ];

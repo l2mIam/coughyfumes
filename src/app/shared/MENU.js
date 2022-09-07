@@ -5,26 +5,26 @@ import dessert from '../assets/img/food-dessert.jpg';
 export const MENU = [
     {
         id: 0,
-        name: 'Bootstrap Outfitters',
+        name: 'Fried Egg on Toast',
         image: breakfast,
-        featured: false,
+        featured: true,
         description:
-            "Bootstrap Outfitters supplies you with the gear you need at prices you can't beat."
+            "The picture speaks for itself. What more can be said."
     },
     {
         id: 1,
-        name: 'Git Out Expeditions',
+        name: 'Lunch for Healthy Soul',
         image: lunch,
         featured: false,
         description:
-            'Join Git Out Expeditions to explore new horizons with a group of other adventurers!'
+            'The chef explained it, but to be honest I don\'t know what it is.  Taste delicious though!'
     },
     {
         id: 2,
-        name: 'Mongo Fly Shop',
+        name: 'Pastries',
         image: dessert,
         featured: false,
         description:
-            'Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.'
+            'If you\'re going to cheat, go all out.  These will tip the scale, but so worth it.'
     }
 ];

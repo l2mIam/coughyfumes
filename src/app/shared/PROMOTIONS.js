@@ -1,6 +1,6 @@
 import downtown from '../assets/img/loc-downtown.jpg';
 import coffee from '../assets/img/coffee.jpg'
-import threeCoffee from '../assets/img/three-coffee.jpg'
+import threeCoffee from '../assets/img/three-coffees.jpg'
 
 export const PROMOTIONS = [
     {
