@@ -9,9 +9,11 @@ const LocationList = () => {
     <Row className='ms-auto'>
       {locations.map(location => {
         return (
-          <Col md='5' className='m-4' key={location.id}>
-            <LocationCard location={location}/>
-          </Col>
+          location && (
+            <Col md='5' className='m-4' key={location.id}>
+              <LocationCard location={location}/>
+            </Col>
+          )
         )
       })}
     </Row>

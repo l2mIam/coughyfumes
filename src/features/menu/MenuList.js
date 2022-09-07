@@ -9,9 +9,11 @@ const MenuList = () => {
       <Row>
         {items.map((item) => {
           return (
-            <div className="d-flex mb-5" key={item.id}>
-              <Menu item={item}/>
-            </div>
+            item && (
+              <div className="d-flex mb-5" key={item.id}>
+                <Menu item={item}/>
+              </div>
+            )
           )
         })}
       </Row>
