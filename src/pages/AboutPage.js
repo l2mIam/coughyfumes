@@ -1,5 +1,6 @@
 import { Row, Col, Container, Card, CardBody, CardHeader } from "reactstrap"
 import SubHeader from "../components/SubHeader"
+import MenuList from "../features/menu/MenuList"
 
 const AboutPage = () => {
   return (
@@ -59,6 +60,7 @@ const AboutPage = () => {
         <Col xs='12'>
           <h3>Menu Items</h3>
         </Col>
+        <MenuList />
       </Row>
     </Container>
   )
