@@ -1,0 +1,101 @@
+[33mcommit 18081952877de54e6085f8387d6a86369b470b32[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Tue Sep 6 18:22:22 2022 -0700
+
+    fix: check for item, if none exists won't error in displaying list
+
+[33mcommit 6feae8b6a08142d78d0b689850fe82963733ceba[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Tue Sep 6 18:17:07 2022 -0700
+
+    feat: animate display card
+
+[33mcommit b1e04347b22b144e80d66a22f81a33f2fb3f0383[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Tue Sep 6 18:02:53 2022 -0700
+
+    feat: menu items added to about page
+
+[33mcommit 09cdb9a0e6c8a543f5e17b2330b0b814a289f212[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Tue Sep 6 12:57:59 2022 -0700
+
+    feat: added menu and added to featured items
+
+[33mcommit 8e298bca57cb5b8a30379fb260a495471307830a[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Tue Sep 6 12:41:03 2022 -0700
+
+    feat: Update About Page, add Subheader
+
+[33mcommit fefdcd7f8b20a3dc08dceee7b997262b827d3121[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Mon Sep 5 19:00:30 2022 -0700
+
+    feat: subheader breadcrumbs
+
+[33mcommit da7a3557be418c3a20ee71e31105b9cefaf2a861[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Mon Sep 5 18:49:18 2022 -0700
+
+    feat: add comments to location detail page
+
+[33mcommit a01c49211ec8bc37d31f73daf6bf159b8fd985e0[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Mon Sep 5 18:06:13 2022 -0700
+
+    feat: Location detail page with useParams
+
+[33mcommit 28321f00875250b9d0a98a0d3053c2b1ce4794e8[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Mon Sep 5 17:41:37 2022 -0700
+
+    feat: display promotions on home page, and clean up
+
+[33mcommit 24644ad764e11222465f21442f67a5e37869f29a[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Mon Sep 5 17:13:40 2022 -0700
+
+    feat: header collapsable hamburger menu
+
+[33mcommit 0c294736bb04e63b0ac1acb1d3eba7fd108f7737[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Mon Sep 5 16:58:05 2022 -0700
+
+    feat: header, footer, set up router
+
+[33mcommit 7fedec8034105cfca301f3bc3e156637fd3e88b1[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Mon Sep 5 13:02:18 2022 -0700
+
+    feat: Show Detail location when click a location
+
+[33mcommit d493c9efbd7603b84c4d964dac01f5bb765aaec3[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Mon Sep 5 12:08:54 2022 -0700
+
+    feat: Location slice
+
+[33mcommit 6b543dd39e121e40f450428b517d2acad6d0bbe2[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Mon Sep 5 11:00:18 2022 -0700
+
+    feat: LocationList, update images
+
+[33mcommit f821c63462d08965aa9cbf3f4397833c39ca76bf[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Sun Sep 4 15:03:12 2022 -0700
+
+    setup card and clean up
+
+[33mcommit 8564bac2b2df9efafc9f8734515212a2d77241a7[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Sun Sep 4 14:46:12 2022 -0700
+
+    setup app navbar
+
+[33mcommit 3865e369d75628510ed4881be791b687274bd8c6[m
+Author: L2M <loren.milliman@gmail.com>
+Date:   Sun Sep 4 12:30:21 2022 -0700
+
+    Initialize project using Create React App
