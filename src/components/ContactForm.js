@@ -2,16 +2,23 @@ import { Button, Label, Col, FormGroup } from "reactstrap"
 import { Formik, Field, Form } from "formik"
 
 const ContactForm = () => {
+  const handleSubmit = (values, { resetForm }) => {
+    console.log('form values: ', JSON.stringify(values))
+    resetForm()
+  }
   return (
-    <Formik initialValues={{
-      firstName: '',
-      lastName: '',
-      phoneNum: '',
-      email: '',
-      agree: false,
-      contactType: 'By Phone',
-      feedback: ''
-    }}>
+    <Formik
+      initialValues={{
+        firstName: '',
+        lastName: '',
+        phoneNum: '',
+        email: '',
+        agree: false,
+        contactType: 'By Phone',
+        feedback: ''
+      }}
+      onSubmit={handleSubmit}
+    >
       <Form>
         <FormGroup row>
           <Label htmlFor='firstName' md='2'>First Name</Label>
