@@ -52,7 +52,7 @@ const ContactForm = () => {
         <FormGroup row>
           <Label htmlFor='email' md='2'>Email</Label>
           <Col md='10'>
-            <Field className='form-control' name='eamil' placeholder='Email Address' />
+            <Field className='form-control' name='email' placeholder='Email Address' />
             <ErrorMessage name='email'>
               {(msg) => <p className="text-danger">{msg}</p>}
             </ErrorMessage>
