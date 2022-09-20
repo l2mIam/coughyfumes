@@ -6,7 +6,7 @@ const LocationDirectoryPage = () => {
 
   return (
     <Container>
-      <SubHeader current='Directory' />
+      <SubHeader current='Locations' />
       <LocationsList />
     </Container>
   )
