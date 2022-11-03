@@ -2,6 +2,8 @@ import { Button, Label, Col, FormGroup } from "reactstrap"
 import { Formik, Field, Form, ErrorMessage } from "formik"
 import * as Yup from 'yup'
 
+require("yup-phone")
+
 const ContactForm = () => {
   const handleSubmit = (values, { resetForm }) => {
     console.log('form values: ', JSON.stringify(values))
@@ -27,8 +29,8 @@ const ContactForm = () => {
     .min(2, 'Too Short!')
     .max(50, 'Too Long!')
     .required('Required!'),
-    phoneNum: Yup.string()
-    .email('Invalid email')
+    phone: Yup.string()
+    .phone('Invalid phone')
     .required('Required!'),
     email: Yup.string()
     .email('Invalid email')
@@ -77,18 +79,18 @@ const ContactForm = () => {
                 </Col>
               </FormGroup>
               <FormGroup row>
-                <Label htmlFor='phoneNum' md='2'>Phone</Label>
+                <Label htmlFor='phone' md='2'>Phone</Label>
                 <Col md='10'>
                   <Field
                     type="tel"
-                    name="phoneNum"
+                    name="phone"
                     placeholder='Phone Number'
-                    id="phoneNum"
+                    id="phone"
                     className={
                       errors.phoneNum && touched.phoneNum ? "input-error form-control" : "form-control"
                     }
                   />
-                  <ErrorMessage name="phoneNum" component="span" className="text-danger" />
+                  <ErrorMessage name="phone" component="span" className="text-danger" />
                 </Col>
               </FormGroup>
               <FormGroup row>
