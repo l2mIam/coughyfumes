@@ -1,6 +1,7 @@
 import { Col } from "reactstrap"
 import Comment from './Comment'
 import { selectCommentsByLocationId } from "./commentSlice"
+import CommentForm from "./CommentForm"
 
 const CommentsList = ({ locationId }) => {
   const comments = selectCommentsByLocationId(locationId)
@@ -15,6 +16,7 @@ const CommentsList = ({ locationId }) => {
             )
           )
         })}
+        <CommentForm />
       </Col>
     )
   }
